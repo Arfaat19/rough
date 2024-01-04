@@ -5,8 +5,8 @@
 
 trigger:
   - main
-pool: Self
+pool: SelfP
 jobs:
   - job: Build
     steps:
-      - scrit: echo Hello, Azure DevOps!
+      - script: echo Hello, Azure DevOps!
